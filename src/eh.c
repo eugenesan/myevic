@@ -941,8 +941,8 @@ __myevic__ void EventHandler()
 					{
 						if ( dfIsCelsius )
 						{
-							v61 = dfTemp - 5;
-							if ( dfTemp - 5 < 100 )
+							v61 = dfTemp - 1;
+							if ( dfTemp - 1 < 100 )
 							{
 								dfIsCelsius = 0;
 								v61 = 600;
@@ -950,8 +950,8 @@ __myevic__ void EventHandler()
 						}
 						else
 						{
-							v61 = dfTemp - 10;
-							if ( dfTemp - 10 < 200 )
+							v61 = dfTemp - 5;
+							if ( dfTemp - 5 < 200 )
 							{
 								dfIsCelsius = 1;
 								v61 = 315;
@@ -1164,8 +1164,8 @@ __myevic__ void EventHandler()
 						case 3:
 							if ( dfIsCelsius )
 							{
-								v48 = dfTemp + 5;
-								if ( dfTemp + 5 >= 316 )
+								v48 = dfTemp + 1;
+								if ( dfTemp + 1 >= 316 )
 								{
 									dfIsCelsius = 0;
 									v48 = 200;
@@ -1173,8 +1173,8 @@ __myevic__ void EventHandler()
 							}
 							else
 							{
-								v48 = dfTemp + 10;
-								if ( dfTemp + 10 > 600 )
+								v48 = dfTemp + 5;
+								if ( dfTemp + 5 > 600 )
 								{
 									dfIsCelsius = 1;
 									v48 = 100;
